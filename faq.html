@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webber- Powered by NSTP, NUST</title>
+    <link rel="icon" type=“image/png” href="favicon.svg"/>
+    <link rel="stylesheet" href="input.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="backgroundProperty">
+    <div class="navbar flex justify-between  items-center ">
+      <div class="flex items-center myMargin justify-center md:order-2">
+        <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+          <div class="close">
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+          </div>
+          <div class="open hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+            <!-- <img src="cross.svg" alt="" class="hidden w-[73.23px] h-14"> -->
+          </div>
+        </div>
+
+        <div class="search flex md:hidden">
+          <span ><input type="text" placeholder="search" id="searchId" class="hidden md:hidden"></span>
+          <img src="search.svg" alt="" class="w-4 mx-2 hover:w-6" id="clickEvent"/>
+        </div>
+      </div>
+
+      <div
+        class="mx-2 order-2 logo flex flex-col mt-4 items-center justify-center myClassForDiv md:text-center md:order-1"
+      >
+        <div class="background">
+          <img src="favicon.svg" alt="" class="w-[73.23px]" />
+        </div>
+        <div>Webber</div>
+      </div>
+
+      <div class="items mx-auto md:order-2 hidden md:block">
+        <ul
+        class="md:space-x-10 space-y-3 md:space-y-0 md:flex md:flex-row newUlList justify-center font-serif text-xl"
+      >
+        <li 
+          ><a  href="/index.html">
+            Overview
+          </a></li>
+        <li ><a href="/pricing.html">Pricing</a></li>
+        <li ><a href="/caseStudies.html">Case Studies</a></li>
+        <li class="underline decoration-black underline-offset-8">More About Case Studies</li>
+      </ul>
+      </div>
+
+      <div class="order-1 cart text-center md:order-3 hidden md:block">
+        <button
+          class="text-[#0E7490] bg-[#CFFAFE] py-2 my-6 font-bold mx-5 px w-[84px]"
+        >
+          Sign In
+        </button>
+      </div>
+    </div>
+    <!-- START OF MAIN TAG  -->
+    <div class="main relative top-10">
+      <div class="section1 flex justify-between items-center flex-col lg:flex-row">
+        <div class="sectionPart1 relative lg:left-3 lg:w-[40%]">
+          <div class="section1Part1 w-[100%] ">
+            <div class="1">Kanban Software</div>
+            <div class="2 font-bold lg:text-3xl">Trello x Webber</div>
+            <div class="3">
+              Learn how Trello has leveraged Webber to consolidate it’s diverse
+              range of services software
+            </div>
+            <div class="4 font-bold flex flex-row w-[70%] relative top-4">
+              <div class="1Inside flex w-[50%] flex-col justify-between">
+                <div class="1">Since: 2018</div>
+                <div>Industry: Technology</div>
+              </div>
+              <div class="2Inside flex flex-col w-[50%] justify-between">
+                <div class="2">Use case: Developer operations</div>
+                <div>Package: Enterprise+</div>
+              </div>
+            </div>
+          </div>
+          <div class="section1Part2 w-[100%] relative top-32">
+            <div class="heading font-bold text-3xl text-center lg:text-left">The details</div>
+            <div class="paragraph text-center lg:text-left">
+              It is a long established fact that a reader will be distracted by
+              the readable. There are many variations of passages of Lorem Ipsum
+              available, but the majority have suffered alteration in some form,
+              by injected humour, or randomised words which don't look even
+              slightly believable. If you are going to use a passage of Lorem
+              Ipsum, you need to be sure there isn't anything embarrassing
+              hidden in the middle of text. All the Lorem Ipsum generators on
+              the Internet tend to repeat predefined chunks as necessary, making
+              this the first true generator on the Internet. It uses a
+              dictionary of over 200 Latin words, combined with a handful of
+              model sentence structures, to generate Lorem Ipsum which looks
+              reasonable. The generated Lorem Ipsum is therefore always free
+              from repetition, injected humour, or non-characteristic words etc.
+            </div>
+            <div class="image w-[200%]">
+              <img src="lastPageImages/First.svg" alt="" class="w-[50%]" />
+            </div>
+          </div>
+
+          <div class="section1Part3 w-[100%] relative top-32">
+            <div class="heading font-bold text-3xl text-center lg:text-left">
+              Breakdown of milestones
+            </div>
+            <div class="paragraph">
+              - Mauris ullamcorper neque sed mauris gravida, vel mollis velit
+              molestie.
+              <br />
+              - Donec iaculis erat in vulputate venenatis.
+              <br />
+              - Vestibulum et velit et metus commodo iaculis.
+              <br />
+              - Sed et urna a felis accumsan commodo vel vel nibh.
+              <br />
+              - Praesent sollicitudin nulla non sollicitudin varius.
+              <br />
+              - Integer convallis orci sed diam volutpat feugiat.
+              <br />
+              - Donec posuere arcu non semper maximus.
+              <br />
+            </div>
+            <div class="image w-[200%]">
+              <img src="lastPageImages/Second.svg" alt="" class="w-[50%]" />
+            </div>
+          </div>
+        </div>
+
+        <div class="section1Part2 lg:w-[40%] lg:mx-7 relative top-[250px] lg:top-[0px]">
+          <div class="section1art2Part1 w-[100%]">
+            <div class="image w-[200%]">
+              <img src="lastPageImages/Third.svg" alt="" class="w-[50%]" />
+            </div>
+          </div>
+
+          <div
+            class=" h-[380px] section1Part2Part2 flex flex-col
+            items-center gradientProperty w-[100%] relative top-[30px]"
+          >
+            <div class=" heading  w-auto m-auto  text-center text-3xl font-bold">Get Webber for your organization</div>
+            <div class="paragraph text-center m-auto w-auto ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look.</div>
+            <div class="section2 text-white ">
+              <div class="btn md:flex md:flex-row md:w-fit md:mx-auto md:text-center font-[Mulish]">
+                 <div class="btn1 bg-white text-[#0E7490] justify-center items-center mx-auto  my-6 font-bold  w-[180px] py-7 text-center text-xl md:mx-8  md:h-0.5 rounded-0.125">
+                  <span class="h-fit w-fit relative bottom-[14px]">Get started</span>
+      
+                 </div>
+                 <div class="btn2 text-white justify-center items-center md:mx-auto myNewProperty py-7 my-6 font-bold  w-[180px] text-center text-xl md:h-0.5 rounded-0.125">
+                 
+                   <span class="h-fit w-fit relative bottom-[14px]">  Learn More</span>
+      
+                 </div>
+              </div>
+            </div>
+          </div>
+
+          
+
+        </div>
+      </div>
+      <div class="section2 relative font-bold top-[400px] w-[100%]">
+        <div class="heading 2 font-bold text-3xl ">
+          More case studies
+        </div>
+  
+        <div class="part2  relative top-16 flex flex-col  justify-between md:flex-row lg:flex-row">
+          <div class="firstContainer flex md:w-[80%] lg:w-[100%] flex-col lg:flex-row  md:mr-[60px] lg:mr-[0px]">
+  
+          
+          <div class="part1OfPart1 mx-18 lg:ml-4 w-[100%] flex flex-col">
+            <div class="1 "><img  src="lastPageImages/Fourth.svg" class="w-[100%] m-auto " alt=""></div>
+              <div class="2">Kanban Software</div>
+              <div class="3 lg: font-bold ">Swiss Airline</div>
+              <div class="4">Learn how Trello has leveraged Webber to consolidate it’s diverse range of services software</div>
+              <div class="5 text-[#0E7490]"> <span class="underline-offset-1">Read story</span>  &nbsp; &#8594;</div>
+          </div>
+          <div class="part2OfPart2  lg:ml-4  mx-18 w-[100%]  flex flex-col">
+            <div class="1"><img src="lastPageImages/Fifth.svg" class="w-[100%]  m-auto" alt=""></div>
+            <div class="2">Kanban Software</div>
+              <div class="3 lg: font-bold ">Kling and Sons</div>
+              <div class="4">Learn how Trello has leveraged Webber to consolidate it’s diverse range of services software</div>
+              <div class="5 text-[#0E7490]"> <span class="underline-offset-1">Read story</span>  &nbsp; &#8594;</div>
+          </div>
+        </div>
+        <div class="secondContainer justify-between flex flex-col md:w-[80%] lg:w-[100%] lg:mr-[0px] lg:flex-row">
+  
+        
+          <div class="part3OfPart3  lg:w-[90%] mx-18  w-[100%]  flex flex-col">
+            <div class="1"><img src="lastPageImages/Sixth.svg" class="w-[100%]   m-auto" alt=""></div>
+              <div class="2">Kanban Software</div>
+              <div class="3 lg: font-bold ">Cassin - Zemlak</div>
+              <div class="4">Learn how Trello has leveraged Webber to consolidate it’s diverse range of services software</div>
+              <div class="5 text-[#0E7490]"> <span class="underline-offset-1">Read story</span>  &nbsp; &#8594;</div>
+          </div>
+          <div class="part3OfPart4  mx-18 lg:ml-4 w-[100%]  flex flex-col">
+            <div class="1"><img src="lastPageImages/Seventh.svg" class="w-[100%] m-auto " alt=""></div>
+              <div class="2">Kanban Software</div>
+              <div class="3 lg: font-bold ">Mann and Sons</div>
+              <div class="4">Learn how Trello has leveraged Webber to consolidate it’s diverse range of services software</div>
+              <div class="5 text-[#0E7490]"> <span class="underline-offset-1">Read story</span>  &nbsp; &#8594;</div>
+          </div>
+        </div>
+  
+          
+  
+  
+        </div>
+  
+    </div>
+      
+    </div>
+   
+
+    <!-- START OF FOOTER  -->
+    <footer class="flex   bg-[#F4F4F5] flex-col justify-center items-center relative top-[600px] lg:flex-row">
+      <div class="flex flex-col lg:flex-row part1 lg:w-[25%] ">
+  
+        <div class="firstPart  flex flex-col f">
+          <div class="image">
+  
+            <img src="socialMedia/Webber.svg" alt="" class="mx-auto lg:mx-0">
+           </div>
+           <div class="text my-5"> 
+             <div class="text2">Copyright &copy; 2021 WEBBER.</div>
+             <div class="text1 text-center mx-auto w-fit flex lg:mx-0">All rights reserved</div>
+  
+           </div>
+           <div class="items flex flex-row m-auto justify-between w-[30%] lg:w-[100%] lg:m-0">
+             <img src="socialMedia/Twitter.svg" alt="">
+             <img src="socialMedia/Facebook.svg" alt="">
+           </div>
+         </div>
+         
+       </div>
+       <div class="part2 lg:flex-row flex flex-col  lg:justify-between lg:w-[60%] ">
+         <div class="secondPart flex flex-col ">
+           <div class="mt-4 heading font-bold text-center lg:self-start hidden lg:block">Company</div>
+           <div class="innerContent hidden lg:block">
+             <ul>
+               <li>About Us</li>
+               <li>Blog</li>
+               <li>Contact Us</li>
+               <li>Pricing</li>
+               <li>Testimonials</li>
+             </ul>
+           </div>
+         </div>
+         
+         <div class="thirdPart flex flex-col lg:mr-7">
+           <div class="mt-4 heading font-bold text-center lg:self-start hidden lg:block ">Support</div>
+     
+         <div class="innerContent hidden lg:block">
+           <ul>
+             <li>Help center</li>
+             <li>Terms of service</li>
+             <li>Legal</li>
+             <li>Privacy policy</li>
+             <li>Status</li>
+           </ul>
+         </div>
+           
+         
+           
+         </div>
+         <div class="fourthPart flex flex-col hidden lg:block">
+           <div class="mt-4 heading font-bold text-center hidden lg:block">Get Updates and more</div>
+     
+           <div class="innerContent flex flex-row justify-between items-center">
+             <div class="firstContentInner">
+                       Your email address
+             </div>
+             <div class="secondContentInner">
+               <img  class=" gradientProperty rounded-full p-2" src="sendIcon/Vector.svg" alt="">
+  
+  
+             </div>
+           </div>
+           
+  
+         </div>
+  
+       </div>
+      
+    </footer>
+
+    
+    <script src="index.js"></script>
+  </body>
+</html>

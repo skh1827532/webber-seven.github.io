@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webber- Powered by NSTP, NUST</title>
+    <link rel="icon" type=“image/png” href="favicon.svg"/>
+    <link rel="stylesheet" href="input.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="backgroundProperty">
+    <div class="navbar flex justify-between  items-center ">
+      <div class="flex items-center myMargin justify-center md:order-2">
+        <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+          <div class="close">
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+          </div>
+          <div class="open hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+            <!-- <img src="cross.svg" alt="" class="hidden w-[73.23px] h-14"> -->
+          </div>
+        </div>
+
+        <div class="search flex md:hidden">
+          <span ><input type="text" placeholder="search" id="searchId" class="hidden md:hidden"></span>
+          <img src="search.svg" alt="" class="w-4 mx-2 hover:w-6" id="clickEvent"/>
+        </div>
+      </div>
+
+      <div
+        class="mx-2 order-2 logo flex flex-col mt-4 items-center justify-center myClassForDiv md:text-center md:order-1"
+      >
+        <div class="background">
+          <img src="favicon.svg" alt="" class="w-[73.23px]" />
+        </div>
+        <div>Webber</div>
+      </div>
+
+      <div class="items mx-auto md:order-2 hidden md:block">
+        <ul
+        class="md:space-x-10 space-y-3 md:space-y-0 md:flex md:flex-row newUlList justify-center font-serif text-xl"
+      >
+        <li 
+          ><a  href="/index.html">
+            Overview
+          </a></li>
+        <li class="underline decoration-black underline-offset-8"><a href="/pricing.html">Pricing</a></li>
+        <li ><a href="/caseStudies.html">Case Studies</a></li>
+        <li>FAQ</li>
+      </ul>
+      </div>
+
+      <div class="order-1 cart text-center md:order-3 hidden md:block">
+        <button
+          class="text-[#0E7490] bg-[#CFFAFE] py-2 my-6 font-bold mx-5 px w-[84px]"
+        >
+          Sign In
+        </button>
+      </div>
+    </div>
+
+
+    <!-- START OF MAIN -->
+    <div class="main">
+     
+      <div class="section1 flex font-bold justify-center flex-col items-center my-9">
+        <div class="text-[1.5rem] item text-center md:w-[40rem] md:text-[4rem] md:space-y-4 md:items-center md:justify-center md:text-center font-bold">SIMPLE PRICING</div>
+        <div class="anotherText text-center w-auto lg:w-[50%] md:text-center">
+          No contracts. No surprise fees. Register now or try out the Webbber free trial so you’re absolutely sure that it’s the right fit for your frontend team
+        </div>
+      </div>
+      
+      <div class="section2 text-white">
+        <div class="btn md:flex md:flex-row md:w-fit md:mx-auto md:text-center font-[Mulish]">
+          <div class="btn1 text-white justify-center items-center mx-auto gradientProperty my-6 font-bold  w-[240px] py-7 text-center text-xl md:mx-8  md:h-0.5 rounded-0.125">
+            <span class="h-fit w-fit relative bottom-[14px]">Monthly</span>
+            
+            
+         </div>
+         <div class="btn2 text-[#0E7490] justify-center items-center mx-auto bg-[#CFFAFE] py-7 my-6 font-bold  w-[240px] text-center text-xl md:h-0.5 rounded-0.125">
+          
+            <span class="h-fit w-fit relative bottom-[14px]">Yearly</span>
+
+          </div>
+      </div>
+    </div>
+
+
+    <div class="section3 flex flex-col justify-between lg:flex-row ">
+      <div class="section3part1 m-auto relative bottom-7 lg:m-0 lg:top-2 hidden lg:block">
+        <ul class="flex flex-col justify-center items-center lg:items-start lg:ml-5 space-y-3">
+          <li class="font-bold md:text-[#E5E5E5] text-white hidden">Starter</li>
+          <li class="text-[#E5E5E5] h-[45px]"><span class="font-bold text-2xl hidden">$20</span>&nbsp;/ <sub class="hidden">month</sub> </li>
+          <li class="font-bold">All limited links</li>
+          <li class="font-bold">Own analytics platform</li>
+          <li class="font-bold">Chat support</li>
+          <li class="font-bold">Number of users</li>
+          <li class="font-bold">Optimize hashtags</li>
+          <li class="font-bold">Account manager</li>
+          <li class="font-bold">Number of articles</li>
+          <li class="font-bold">Satisfaction guaranteed</li>
+        </ul>
+      </div>
+
+      <div class="section3Part2 flex flex-row">
+        
+        
+          <div class="section3part1 m-auto relative bottom-7 lg:m-0 lg:top-2  lg:hidden">
+            <ul class="flex flex-col justify-center items-center lg:items-start lg:ml-5 space-y-3">
+              <li class="font-bold md:text-[#E5E5E5] text-[#E5E5E5] hidden" >Starter</li>
+              <li class="text-[#E5E5E5] "><span class="font-bold text-2xl hidden">$20</span>&nbsp;/ <sub class="hidden">month</sub> </li>
+              <li class="font-bold">All limited links</li>
+              <li class="font-bold">Own analytics platform</li>
+              <li class="font-bold">Chat support</li>
+              <li class="font-bold">Number of users</li>
+              <li class="font-bold">Optimize hashtags</li>
+              <li class="font-bold">Account manager</li>
+              <li class="font-bold">Number of articles</li>
+              <li class="font-bold">Satisfaction guaranteed</li>
+            </ul>
+          </div>
+          <div class="firstElem">
+            <ul class="flex flex-col justify-center items-center space-y-3">
+              <li class="font-bold ">Starter</li>
+              <li><span class="font-bold text-2xl ">$20</span>&nbsp;/ <sub >month</sub> </li>
+             <li>&#10004;</li>
+             <li>&#10004;</li>
+             <li>&#10004;</li>
+             <li>1 user</li>
+             <li>&#10004;</li><li><img src="CrossImag/Path@3x.svg" alt=""></li>
+             <li><img src="CrossImag/Path@3x.svg" alt=""></li>
+             <li >&#10004;</li>
+             <li class=" text-[#0E7490] justify-center items-center mx-auto bg-[#CFFAFE] py-4 my-6 font-bold   text-center text-0.25xl md:h-0.8 lg:h-0.5 relative w-[120px] lg:w-[140px]  rounded-0.125">
+              
+               
+               <span class="h-fit w-fit relative lg:bottom-[14px]">Choose plan</span>
+               
+             </li>
+            </ul>
+  
+          </div>
+
+        
+
+      </div>
+      <div class="section3Part3 h-[430px]  boxShadow flex flex-row">
+        <div class="section3part1 m-auto relative bottom-7 lg:m-0 lg:top-2  lg:hidden">
+          <ul class="flex flex-col justify-center items-center lg:items-start lg:ml-5 space-y-3">
+            <li class="font-bold lg:text-[#E5E5E5] text-white hidden">Starter</li>
+            <li class="text-white lg:text-[#E5E5E5]"><span class="font-bold hidden text-2xl">$20</span>&nbsp;/ <sub class="hidden">month</sub> </li>
+            <li class="font-bold">All limited links</li>
+            <li class="font-bold">Own analytics platform</li>
+            <li class="font-bold">Chat support</li>
+            <li class="font-bold">Number of users</li>
+            <li class="font-bold">Optimize hashtags</li>
+            <li class="font-bold">Account manager</li>
+            <li class="font-bold">Number of articles</li>
+            <li class="font-bold">Satisfaction guaranteed</li>
+          </ul>
+        </div>
+        <div class="partElem">
+          <ul class="flex flex-col justify-center items-center space-y-3">
+            <li class="font-bold text-[#0284C7]">Pro</li>
+            <li><span class="font-bold text-2xl">$100</span>&nbsp;/ <sub>month</sub> </li>
+           <li>&#10004;</li>
+           <li>&#10004;</li>
+           <li>&#10004;</li>
+           <li>3 users</li>
+           <li>&#10004;</li>
+           <li>&#10004;</li>
+           <li><img src="CrossImag/Path@3x.svg" alt=""></li>
+           <li>&#10004;</li>
+           <li class=" text-white justify-center items-center mx-auto gradientProperty my-6 font-bold    text-center text-0.25xl md:mx-8   w-[140px] py-4 rounded-0.125  md:h-0.8 lg:h-0.5">
+            
+            <span class="h-fit w-fit relative lg:bottom-[14px]">Choose plan</span>
+              
+           
+           </li>
+          </ul>
+
+        </div>
+        
+        
+
+      </div>
+      <div class="section3Part4 flex flex-row  ">
+        <div class="section3part1 m-auto relative bottom-7 lg:m-0 lg:top-2  lg:hidden">
+          <ul class="flex flex-col justify-center items-center lg:items-start lg:ml-5 space-y-3">
+            <li class="font-bold lg:text-[#E5E5E5] text-[#E5E5E5] hidden">Starter</li>
+            <li class="text-[#E5E5E5] lg:text-[#E5E5E5]"><span class="font-bold hidden text-2xl">$20</span>&nbsp;/ <sub class="hidden">month</sub> </li>
+            <li class="font-bold">All limited links</li>
+            <li class="font-bold">Own analytics platform</li>
+            <li class="font-bold">Chat support</li>
+            <li class="font-bold">Number of users</li>
+            <li class="font-bold">Optimize hashtags</li>
+            <li class="font-bold">Account manager</li>
+            <li class="font-bold">Number of articles</li>
+            <li class="font-bold">Satisfaction guaranteed</li>
+          </ul>
+        </div>
+
+        <div class="partElem">
+
+        
+        <ul class="flex flex-col justify-center items-center lg:mr-5 space-y-3">
+          <li class="font-bold">Enterprise</li>
+          <li><span class="font-bold text-2xl">$200</span>&nbsp;/ <sub>month</sub> </li>
+         <li>&#10004;</li>
+         <li>&#10004;</li>
+         <li>&#10004;</li>
+         <li>&#10004;</li>
+         <li>&#10004;</li>
+         <li>&#10004;</li>
+         <li>&#10004;</li>
+         <li>&#10004;</li>
+         <li class=" text-[#0E7490] justify-center items-center mx-auto bg-[#CFFAFE]  my-6 font-bold   text-center  md:h-0.8 rounded-0.125 w-[120px] lg:w-[140px] py-4 text-0.25xl relative bottom-[8px] lg:h-0.5">
+          
+          <span class="h-fit w-fit relative lg:bottom-[14px]"> Choose plan</span>
+          
+        </li>
+        </ul>
+      </div>
+
+
+
+      </div>
+    </div>
+  
+    <div class="sectionTimes bg-[#F4F4F5]">
+
+    
+
+     <div class="section4 text-center font-bold text-[26px] relative lg:top-20 flex w-fit mx-auto md:text-[50px] lg:text-[50px] my-[30px]">
+                            FREQUENTLY ASKED QUESTIONS
+    </div>
+
+
+    <div class="section5 relative top-[100px] flex flex-col items-center lg:flex-row justify-between">
+      <div class=" mx-10 text-xl firstContainer flex flex-col justify-between lg:w-[40%]">
+
+        <div class="first my-4">
+          <div class="heading1 font-bold  text-center w-[50%] m-auto  lg:text-left lg:w-[100%] lg:m-0">How do I use the webber for 3+ members?</div>
+          <div class="paragraph">
+            Magnam reprehenderit quisquam corporis sunt ratione. Non magnam et. Suscipit quia et aspernatur officiis quo. Officia sed eaque enim doloribus quisquam mollitia nihil.
+
+          </div>
+        </div>
+        <div class="second my-4">
+          <div class="heading2 font-bold text-center w-[50%] m-auto  lg:text-left lg:w-[100%] lg:m-0">Whats the best way to make the most out of it?</div>
+          <div class="paragraph">
+            Magnam reprehenderit quisquam corporis sunt ratione. Non magnam et. Suscipit quia et aspernatur officiis quo. Officia sed eaque enim doloribus quisquam mollitia nihil.
+            
+          </div>
+        </div>
+        <div class="third my-4">
+          <div class="heading3 font-bold text-center w-[50%] m-auto  lg:text-left lg:w-[100%] lg:m-0">How do I use the webber for 3+ members</div>
+          <div class="paragraph">
+            Magnam reprehenderit quisquam corporis sunt ratione. Non magnam et. Suscipit quia et aspernatur officiis quo. Officia sed eaque enim doloribus quisquam mollitia nihil.
+            
+          </div>
+        </div>
+      </div>
+      <div class="secondContainer
+      flex flex-col lg:w-[40%] text-xl justify-between mx-10">
+      <div class="fourth my-4">
+        <div class="heading1 font-bold text-center w-[50%] m-auto  lg:text-left lg:w-[100%] lg:m-0">What does early access mean</div>
+        <div class="paragraph">
+          Magnam reprehenderit quisquam corporis sunt ratione. Non magnam et. Suscipit quia et aspernatur officiis quo. Officia sed eaque enim doloribus quisquam mollitia nihil.
+            
+        </div>
+      </div>
+      <div class="fifth my-4 ">
+        <div class="heading1 font-bold text-center w-[50%] m-auto  lg:text-left lg:w-[100%] lg:m-0">How are enterprise package customers accomodated?</div>
+        <div class="paragraph">
+          Magnam reprehenderit quisquam corporis sunt ratione. Non magnam et. Suscipit quia et aspernatur officiis quo. Officia sed eaque enim doloribus quisquam mollitia nihil.
+            
+        </div>
+      </div>
+
+      <div class="sixth my-4">
+        <div class="heading1 font-bold text-center w-[50%] m-auto  lg:text-left lg:w-[100%] lg:m-0">How do I use the webber for 3+ members</div>
+        <div class="paragraph">
+          Magnam reprehenderit quisquam corporis sunt ratione. Non magnam et. Suscipit quia et aspernatur officiis quo. Officia sed eaque enim doloribus quisquam mollitia nihil.
+        </div>
+      </div>
+    </div>
+  
+
+    </div>
+ 
+
+    <div class="section6 lg:h-[30rem] h-[20rem] my-[120px] gradientProperty lg:my-[300px]">
+      <div class="firstElement justify-center relative top-20 items-center text-center  lg:relative lg:top-40">
+          <div class="para1 text-white text-5xl font-bold ">Get results, no matter what</div>
+          <div class="para2 text-white ">Start your free trial today, you get all the pro features for 1 month for you and your team. If you think its not for you can easily unsubscribe</div>
+          
+    <div class="item2 lg:my-16 my-2">
+      <button class="btn  text-[#0E7490] font-bold bg-white rounded-[4px] px-3 py-3">
+
+        
+               Start free trial
+      </button>
+
+    </div>
+
+      </div>
+     
+  
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+      <!-- START OF FOOTER  -->
+      <footer class="flex bg-[#F4F4F5] flex-col justify-center items-center lg:flex-row">
+        <div class="flex flex-col lg:flex-row part1 lg:w-[25%] ">
+   
+          <div class="firstPart  flex flex-col f">
+            <div class="image relative top-[12px]">
+   
+              <img src="socialMedia/Webber.svg" alt="" class="mx-auto lg:mx-0">
+             </div>
+             <div class="text my-5"> 
+               <div class="text2">Copyright &copy; 2021 WEBBER.</div>
+               <div class="text1 text-center mx-auto w-fit flex lg:mx-0">All rights reserved</div>
+   
+             </div>
+             <div class="items flex flex-row m-auto  w-[30%] lg:w-[100%] lg:m-0">
+               <img src="socialMedia/Twitter.svg" alt="">
+               <img src="socialMedia/Facebook.svg" alt="">
+             </div>
+           </div>
+           
+         </div>
+         <!-- position: relative;
+         bottom: 15px; -->
+         <div class="part2 lg:flex-row flex flex-col  lg:justify-between lg:w-[60%] relative bottom-[15px] ">
+           <div class="secondPart flex flex-col ">
+             <div class="mt-4 heading font-bold text-left lg:self-start  lg:block">Company</div>
+             <div class="innerContent  lg:block">
+               <ul>
+                 <li>About Us</li>
+                 <li>Blog</li>
+                 <li>Contact Us</li>
+                 <li>Pricing</li>
+                 <li>Testimonials</li>
+               </ul>
+             </div>
+           </div>
+           
+           <div class="thirdPart flex flex-col lg:mr-7">
+             <div class="mt-4 heading font-bold lg:self-start text-left lg:block ">Support</div>
+       
+           <div class="innerContent  lg:block">
+             <ul>
+               <li>Help center</li>
+               <li>Terms of service</li>
+               <li>Legal</li>
+               <li>Privacy policy</li>
+               <li>Status</li>
+             </ul>
+           </div>
+             
+           
+             
+           </div>
+           <div class="fourthPart flex flex-col lg:block">
+             <div class="mt-4 heading font-bold text-center  lg:block">Get Updates and more</div>
+       
+             <div class="innerContent flex flex-row justify-between items-center">
+               <div class="firstContentInner">
+                         Your email address
+               </div>
+               <div class="secondContentInner">
+                 <img  class=" gradientProperty rounded-full p-2" src="sendIcon/Vector.svg" alt="">
+   
+   
+               </div>
+             </div>
+             
+   
+           </div>
+   
+         </div>
+        
+      </footer>
+  
+    <script src="index.js"></script>
+  </body>
+</html>

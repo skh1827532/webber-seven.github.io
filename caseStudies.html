@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webber- Powered by NSTP, NUST</title>
+    <link rel="icon" type=“image/png” href="favicon.svg"/>
+    <link rel="stylesheet" href="input.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="backgroundProperty">
+    <div class="new backgroundProperty">
+
+  
+      <div class="navbar flex justify-between  items-center ">
+        <div class="flex items-center myMargin justify-center md:order-2">
+          <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+            <div class="close">
+              <div class="line h-0.5 w-6 my-1 bg-black"></div>
+              <div class="line h-0.5 w-6 my-1 bg-black"></div>
+              <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            </div>
+            <div class="open hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+              <!-- <img src="cross.svg" alt="" class="hidden w-[73.23px] h-14"> -->
+            </div>
+          </div>
+  
+          <div class="search flex md:hidden">
+            <span ><input type="text" placeholder="search" id="searchId" class="hidden md:hidden"></span>
+            <img src="search.svg" alt="" class="w-4 mx-2 hover:w-6" id="clickEvent"/>
+          </div>
+        </div>
+  
+        <div
+          class="mx-2 order-2 logo flex flex-col mt-4 items-center justify-center myClassForDiv md:text-center md:order-1"
+        >
+          <div class="background">
+            <img src="favicon.svg" alt="" class="w-[73.23px]" />
+          </div>
+          <div>Webber</div>
+        </div>
+  
+        <div class="items mx-auto md:order-2 hidden md:block">
+          <ul
+          class="md:space-x-10 space-y-3 md:space-y-0 md:flex md:flex-row newUlList justify-center font-serif text-xl"
+        >
+          <li 
+            ><a href="/index.html">
+              Overview
+            </a></li>
+          <li ><a href="/pricing.html">Pricing</a></li>
+          <li ><a href="/caseStudies.html" class="underline decoration-black underline-offset-8" >Case Studies</a></li>
+          <li >FAQ</li>
+        </ul>
+        </div>
+  
+        <div class="order-1 cart text-center md:order-3 hidden md:block">
+          <button
+            class="text-[#0E7490] bg-[#CFFAFE] py-2 my-6 font-bold mx-5 px w-[84px]"
+          >
+            Sign In
+          </button>
+        </div>
+      </div>
+    <!-- END OF NAVBAR  -->
+
+    <!-- START OF MAIN BODY 
+     -->
+
+     <div class="main">
+      <div class="section1 flex font-bold justify-center items-center flex-col my-9">
+        <div class="text-[1.5rem] item md:w-[28rem] md:text-[4rem] md:space-y-4 md:items-center md:justify-center md:text-center">CASE STUDIES</div>
+        <div class="text text-center w-[50%]">
+          See how leading organizations and freelance developers have used Webber to tackle different use cases and get ahead of the competition
+        </div>
+        <div class="items my-4 border-solid border-black border-2 rounded-[4px]">
+          <label for="region">Region</label>
+          <select name="cars" id="region">
+  
+            <option value="volvo">All</option>
+            <option value="saab">One</option>
+         
+          
+            <option value="mercedes">Two</option>
+            <option value="audi">Three</option>
+        
+        </select>
+        <label for="region">Industry:</label>
+        <select name="cars" id="region">
+
+          <option value="volvo">All</option>
+          <option value="saab">One</option>
+       
+        
+          <option value="mercedes">Two</option>
+          <option value="audi">Three</option>
+      
+      </select> <label for="regionA">Type:</label>
+      <select name="cars" id="regionA">
+
+        <option value="volvo">All</option>
+        <option value="saab">One</option>
+     
+      
+        <option value="mercedes">Two</option>
+        <option value="audi">Three</option>
+    
+    </select>
+        
+     
+          
+        </div>
+      </div>
+
+      <div class="section2 flex flex-col justify-between md:flex-row">
+        <div class="part1 flex flex-col relative md:top-[130px] md:mx-[70px] md:w-[45%]">
+          <div class="part1OfPart1 flex flex-col">
+            <div class="1"><img src="helpingFigure/first.svg" alt="" class="w-[100%] md:w-[80%]"></div>
+            <div class="containerN1 md:ml-[0px] ml-[20px]">
+
+            
+            <div class="2">Technology - SaaS</div>
+            <div class="3 lg: font-bold">Adobe Systems Inc</div>
+            <div class="4 md:w-[84%]">Learn how Adobe has leveraged Webber to consolidate it’s diverse range of services software</div>
+            <div class="5 text-[#0E7490]"> <a href="faq.html">
+            <span class="underline-offset-1">Read story</span>  &nbsp; &#8594; </a>	</div>
+          </div>
+              
+          </div>
+          <div class="part2OfPart2 flex flex-col justify-between">
+            <div class="1"><img src="helpingFigure/Second.svg" class="w-[100%] md:w-[80%]" alt=""></div>
+            <div class="containerN2 md:ml-[0px] ml-[20px]">
+
+           
+            <div class="2">Technology - SaaS</div>
+            <div class="3 lg: font-bold ">Gutkowski, Schuppe and Pagac</div>
+            <div class="4 md:w-[84%]">Learn how Adobe has leveraged Webber to consolidate it’s diverse range of services software</div>
+            <div class="5 text-[#0E7490]"> <a href="faq.html">
+              <span class="underline-offset-1">Read story</span>  &nbsp; &#8594; </a>	</div>
+            </div>
+          </div>
+          <div class="part3OfPart3 flex flex-col">
+            <div class="1 "><img src="helpingFigure/Third.svg" class="w-[100%] md:w-[80%]" alt=""></div>
+            <div class="containerN3 md:ml-[0px] ml-[20px] ">
+
+           
+            <div class="2">Technology - SaaS</div>
+            <div class="3 lg: font-bold ">Adobe Systems Inc</div>
+            <div class="4 md:w-[84%]">Learn how Adobe has leveraged Webber to consolidate it’s diverse range of services software</div>
+            <div class="5 text-[#0E7490]"> <a href="faq.html">
+              <span class="underline-offset-1">Read story</span>  &nbsp; &#8594; </a>	</div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="part2  relative top-16 flex flex-col justify-between md:w-[45%]">
+          <div class="part1OfPart1 flex flex-col">
+            <div class="1 flex"><img src="helpingFigure/Fourth.svg" class="w-[100%] md:w-[80%]" alt=""></div>
+            <div class="containerN4 md:ml-[0px] ml-[20px]  ">
+
+         
+              <div class="2">Kanban Software</div>
+              <div class="3 lg: font-bold ">Trello</div>
+              <div class="4 md:w-[84%]">Learn how Trello has leveraged Webber to consolidate it’s diverse range of services software</div>
+              <div class="5 text-[#0E7490]"> <a href="faq.html">
+                <span class="underline-offset-1">Read story</span>  &nbsp; &#8594; </a>	</div>
+              </div>
+          </div>
+          <div class="part2OfPart2 flex flex-col">
+            <div class="1"><img src="helpingFigure/Fifth.svg" class="w-[100%] md:w-[80%]" alt=""></div>
+            <div class="containerN5 md:ml-[0px] ml-[20px]   ">
+
+              <div class="2">Airline</div>
+              <div class="3 lg: font-bold ">Swiss Airline</div>
+              <div class="4 md:w-[84%]">Learn how Trello has leveraged Webber to consolidate it’s diverse range of services software</div>
+              <div class="5 text-[#0E7490]"> <a href="faq.html">
+                <span class="underline-offset-1">Read story</span>  &nbsp; &#8594; </a>	</div>
+              </div>
+          </div>
+          <div class="part3OfPart3  flex flex-col">
+            <div class="1"><img src="helpingFigure/Sixth.svg" class="w-[100%] md:w-[80%]" alt=""></div>
+            <div class="containerN6 md:ml-[0px] ml-[20px]  ">
+
+              <div class="2">Kanban Software</div>
+              <div class="3 lg: font-bold ">Mann and Sons</div>
+              <div class="4 flex md:w-[84%] md:flex-wrap">Learn how Trello has leveraged Webber to consolidate it’s diverse range of services software</div>
+              <div class="5 text-[#0E7490]"> <a href="faq.html">
+                <span class="underline-offset-1">Read story</span>  &nbsp; &#8594; </a>	</div>
+              </div>
+          </div>
+          
+  
+  
+        </div>
+      </div>
+      </div>
+
+    
+
+
+     </div>
+    <script src="index.js"></script>
+  </body>
+</html>
